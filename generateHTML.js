@@ -170,5 +170,76 @@ function generateHTML(data) {
             zoom: .75; 
           } 
          }
-      </style>`
-        }
+      </style>
+      </head>
+      
+      <body>
+    <!-- main section img, bio, name, location, link to github -->
+    <div class="container text-center" id="top-card">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="${date.img}" class="img-responsive img-circle" id="photo">
+                        <br>
+                        <br>
+                        <h2>${date.name}</h2>
+                        <p>${date.bio}</p> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <p><i class="fa fa-map-marker"></i>${date.location}</p>   
+                    </div>
+                    <div class="col-sm-12 col-md-6">     
+                        <p><a href=${date.gitHub}><i class="fa fa-github"></i> Github</a></p>          
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- number of repos -->
+        <div class="container text-center">
+            <div class="row" id="firstRow">
+                <div class="col-sm-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Public Repos</h3>
+                            <h4 class="card-text"><i class="fa fa-file-code-o"></i>${date.repos}</h4>
+                        </div>
+                    </div>
+                </div>
+            <!-- number of followers -->
+                <div class="col-sm-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Followers</h3>
+                            <h4 class="card-text"><i class="fa fa-heart" ></i>${date.followers}</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- number of stars -->
+            <div class="row" id="secondRow">
+                <div class="col-sm-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Stars</h3>
+                            <h4 class="card-text"><i class="fa fa-star"></i>${date.stars}</h4>
+                        </div>
+                    </div>
+                </div>
+            <!-- number of following -->
+                <div class="col-sm-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Following</h3>
+                            <h4 class="card-text"><i class="fa fa-users"></i>${date.following}</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>`
+}
