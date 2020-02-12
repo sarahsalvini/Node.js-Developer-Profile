@@ -18,6 +18,7 @@
   "homepage": "https://github.com/sarahsalvini/Node.js-Developer-Profile#readme",
   "dependencies": {
     "axios": "^0.19.2",
+    "electron": "^8.0.0",
     "electron-html-to": "^2.6.0",
     "fs": "0.0.1-security",
     "index.js": "0.0.3",

@@ -36,7 +36,7 @@ inquirer
         repos: response.data.public_repos,
         followers: response.data.followers,
         following: response.data.following,
-        stars: 0
+        stars: response.data.star
       };
       console.log(profileInfo);
 
