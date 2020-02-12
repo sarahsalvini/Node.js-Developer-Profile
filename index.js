@@ -1,12 +1,14 @@
-const questions = [
+
+
+// const questions = [
   
-];
+// ];
 
-function writeToFile(fileName, data) {
+// function writeToFile(fileName, data) {
  
-}
+// }
 
-function init() {
+// function init() {
 
-init()
-}
+// init()
+// }

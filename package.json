@@ -1,0 +1,25 @@
+{
+  "name": "node.js-developer-profile",
+  "version": "1.0.0",
+  "description": "A command-line application that generates a PDF profile from a GitHub user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sarahsalvini/Node.js-Developer-Profile.git"
+  },
+  "author": "Sarah Salvini <salvini.sarah.ss@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahsalvini/Node.js-Developer-Profile/issues"
+  },
+  "homepage": "https://github.com/sarahsalvini/Node.js-Developer-Profile#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fs": "0.0.1-security",
+    "index.js": "0.0.3",
+    "inquirer": "^7.0.4"
+  }
+}
