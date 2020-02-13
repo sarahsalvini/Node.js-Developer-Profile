@@ -17,4 +17,4 @@ User location via Google Maps, User GitHub profile, User blog
 <li>Number of GitHub stars</li>
 <li>Number of users following</li>
 <br>
-deployed app: 
+deployed app: https://sarahsalvini.github.io/Node.js-Developer-Profile/
