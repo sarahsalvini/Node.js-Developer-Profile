@@ -5,6 +5,7 @@ var convertFactory = require("electron-html-to");
 const generateHTML = require("./generateHTML");
 const util = require("util");
 
+const profObj = {};
 
 inquirer
   .prompt([
@@ -23,6 +24,8 @@ inquirer
   .then(function(answers) { 
     console.log(answers);
     const queryUrl = `https://api.github.com/users/${answers.username}`;
+    const starUrl = `https://api.github.com/users/${answers.username}/starred`;
+  
 
     axios.get(queryUrl).then(function(response) {
 
@@ -35,14 +38,22 @@ inquirer
         gitHub: response.data.html_url,
         repos: response.data.public_repos,
         followers: response.data.followers,
-        following: response.data.following,
-        stars: response.data.star
+        following: response.data.following
+        
       };
-      console.log(profileInfo);
 
-    const htmlDone = generateHTML(profileInfo);
+      axios.get(starUrl).then(function (response) {
 
-      fs.writeFile("repo.html", htmlDone, function(err) {
+        starred = {
+          starred: response.data.length
+          
+        }
+     
+
+    const htmlDone = generateHTML(profileInfo, starred);
+    console.log(profileInfo, starred);
+
+      fs.writeFile("profile.html", htmlDone, function(err) {
         if (err) {
           throw err;
         }
@@ -64,3 +75,4 @@ conversion({ html: htmlDone }, function(err, result) {
 
   })
 })
+  })
