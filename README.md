@@ -1,6 +1,7 @@
 <h1>Node.js and ES6+ Homework: Developer Profile Generator</h1>
 <p>Create a command-line application that dynamically generates a PDF profile from a GitHub username. The application will be invoked with the following command: Node index.js</p>
 <br>
+![developer hw](./nodeHw2.gif) 
 The PDF will be populated with the following:
 <ul>
   <li>Profile image</li>
@@ -19,4 +20,4 @@ User location via Google Maps, User GitHub profile, User blog
 <br>
 deployed app: https://sarahsalvini.github.io/Node.js-Developer-Profile/
 <br>
-![developer hw](Node.js-Developer-Profile/master/nodeHw2.gif) 
+![developer hw](./nodeHw2.gif) 
