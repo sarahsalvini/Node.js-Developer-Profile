@@ -19,4 +19,4 @@ User location via Google Maps, User GitHub profile, User blog
 <br>
 deployed app: https://sarahsalvini.github.io/Node.js-Developer-Profile/
 <br>
-![developer hw](nodeHw2.gif) 
+![developer hw](https://github.com/sarahsalvini/Node.js-Developer-Profile/blob/master/nodeHw2.gif) 
