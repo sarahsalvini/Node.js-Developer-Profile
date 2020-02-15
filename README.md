@@ -19,4 +19,13 @@ User location via Google Maps, User GitHub profile, User blog
 <br>
 deployed app: https://sarahsalvini.github.io/Node.js-Developer-Profile/
 <br>
-![homework demo](Node.js-Developer-Profile/nodeHw.gif)
+homework demo: ![homework demo](nodeHw.gif)
+
+
+# **Node.js and ES6+ Homework: Developer Profile Generator**
+
+* Create a command-line application that dynamically generates a PDF profile from a GitHub username. The application will be invoked with the following command: Node index.js
+
+* deployed app: https://sarahsalvini.github.io/Node.js-Developer-Profile/
+
+* ![developerHW](nodeHw2.gif)
