@@ -18,3 +18,5 @@ User location via Google Maps, User GitHub profile, User blog
 <li>Number of users following</li>
 <br>
 deployed app: https://sarahsalvini.github.io/Node.js-Developer-Profile/
+<br>
+![](nodeHw.gif)
