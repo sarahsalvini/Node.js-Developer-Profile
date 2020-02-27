@@ -22,6 +22,7 @@ The program will generate a PDF and will be populated with the following:
 # Deploy
 The application will be invoked with the following command:
 * node index.js
+https://sarahsalvini.github.io/Node.js-Developer-Profile/
 
 ## Demo
 <a href="https://sarahsalvini.github.io/Node.js-Developer-Profile/">View live demo here</a>
